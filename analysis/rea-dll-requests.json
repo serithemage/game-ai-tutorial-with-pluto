@@ -1,0 +1,60 @@
+[
+  {
+    "name": "open_binary",
+    "arguments": {
+      "path": "vendor/pluto/pluto.dll",
+      "provider_id": "ghidra",
+      "snapshot_path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/analysis/evidence/dll-snapshot.json"
+    },
+    "label": "001-open"
+  },
+  {
+    "name": "resolve_containing_procedure",
+    "arguments": {
+      "address": "0x63fb555f"
+    },
+    "label": "002-shm-container"
+  },
+  {
+    "name": "xrefs",
+    "arguments": {
+      "address": "0x63fd4acc"
+    },
+    "label": "003-response-xrefs"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x63fb5420"
+    },
+    "label": "004-launch-pseudocode"
+  },
+  {
+    "name": "resolve_containing_procedure",
+    "arguments": {
+      "address": "0x63f8d6b5"
+    },
+    "label": "005-response-container"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x63f8baf0"
+    },
+    "label": "006-frame-pseudocode"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x63fb4bc0"
+    },
+    "label": "007-submit-pseudocode"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x63f8a9f0"
+    },
+    "label": "008-apply-pseudocode"
+  }
+]

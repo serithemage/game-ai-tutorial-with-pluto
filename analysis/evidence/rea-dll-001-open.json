@@ -1,0 +1,21 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"path\":\"/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto.dll\",\"format\":\"pe\",\"kind\":\"executable\",\"sha256\":\"7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef\",\"architecture\":\"x86\"}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto.dll",
+        "format": "pe",
+        "kind": "executable",
+        "sha256": "7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef",
+        "architecture": "x86"
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

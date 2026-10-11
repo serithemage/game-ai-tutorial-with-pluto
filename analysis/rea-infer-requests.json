@@ -1,0 +1,211 @@
+[
+  {
+    "name": "open_binary",
+    "arguments": {
+      "path": "vendor/pluto/pluto/pluto_infer.exe",
+      "provider_id": "ghidra"
+    },
+    "label": "001-open-infer"
+  },
+  {
+    "name": "binary_overview",
+    "arguments": {},
+    "label": "002-overview"
+  },
+  {
+    "name": "search_procedures",
+    "arguments": {
+      "pattern": "main"
+    },
+    "label": "003-main"
+  },
+  {
+    "name": "search_procedures",
+    "arguments": {
+      "pattern": "forward"
+    },
+    "label": "004-forward"
+  },
+  {
+    "name": "search_strings",
+    "arguments": {
+      "pattern": "continuous_proj.0.weight"
+    },
+    "label": "005-model-strings"
+  },
+  {
+    "name": "search_strings",
+    "arguments": {
+      "pattern": "shared memory"
+    },
+    "label": "006-shared-memory"
+  },
+  {
+    "name": "xrefs",
+    "arguments": {
+      "address": "0x1401595a2"
+    },
+    "label": "007-xref-cont"
+  },
+  {
+    "name": "xrefs",
+    "arguments": {
+      "address": "0x140159010"
+    },
+    "label": "008-xref-ipc"
+  },
+  {
+    "name": "search_strings",
+    "arguments": {
+      "pattern": "gru_step"
+    },
+    "label": "009-stage-strings"
+  },
+  {
+    "name": "search_strings",
+    "arguments": {
+      "pattern": "linear: W in-dim mismatch"
+    },
+    "label": "010-linear-strings"
+  },
+  {
+    "name": "search_strings",
+    "arguments": {
+      "pattern": "not a Pluto weights container"
+    },
+    "label": "011-loader-strings"
+  },
+  {
+    "name": "search_strings",
+    "arguments": {
+      "pattern": "action_head.weight"
+    },
+    "label": "012-arg-strings"
+  },
+  {
+    "name": "xrefs",
+    "arguments": {
+      "address": "0x14015addc"
+    },
+    "label": "013-xref-gru"
+  },
+  {
+    "name": "xrefs",
+    "arguments": {
+      "address": "0x140159ba3"
+    },
+    "label": "014-xref-linear"
+  },
+  {
+    "name": "xrefs",
+    "arguments": {
+      "address": "0x14015a880"
+    },
+    "label": "015-xref-loader"
+  },
+  {
+    "name": "resolve_containing_procedure",
+    "arguments": {
+      "address": "0x1400354f9"
+    },
+    "label": "016-cont-function"
+  },
+  {
+    "name": "resolve_containing_procedure",
+    "arguments": {
+      "address": "0x14000f21c"
+    },
+    "label": "017-cont-init"
+  },
+  {
+    "name": "resolve_containing_procedure",
+    "arguments": {
+      "address": "0x140151e39"
+    },
+    "label": "018-ipc-function"
+  },
+  {
+    "name": "xrefs",
+    "arguments": {
+      "address": "0x140159629"
+    },
+    "label": "019-xref-action"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x140034f10"
+    },
+    "label": "020-forward-code"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x14000f1f0"
+    },
+    "label": "021-weight-init-code"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x1401501f0"
+    },
+    "label": "022-engine-ipc-code"
+  },
+  {
+    "name": "resolve_containing_procedure",
+    "arguments": {
+      "address": "0x1400751af"
+    },
+    "label": "023-loader-function"
+  },
+  {
+    "name": "resolve_containing_procedure",
+    "arguments": {
+      "address": "0x1400188e9"
+    },
+    "label": "024-linear-function"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x140074460"
+    },
+    "label": "025-loader-code"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x140018000"
+    },
+    "label": "026-linear-code"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x14002be20"
+    },
+    "label": "027-memory-code"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x14008d410"
+    },
+    "label": "028-activation-code"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x14000ed00"
+    },
+    "label": "029-validator-code"
+  },
+  {
+    "name": "procedure_pseudo_code",
+    "arguments": {
+      "procedure": "0x14008dc00"
+    },
+    "label": "030-continuous-linear-code"
+  }
+]

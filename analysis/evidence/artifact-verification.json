@@ -1,0 +1,19 @@
+{
+  "checks": 558,
+  "failures": 0,
+  "errors": [],
+  "scope": [
+    "deployed relative links and anchors",
+    "Korean HTML and unique IDs",
+    "selected JSON",
+    "license and third-party notices",
+    "tutorial chapters",
+    "excluded binaries and local diagnostics"
+  ],
+  "not_checked": [
+    "StarCraft runtime",
+    "training reconstruction",
+    "play strength",
+    "all input or action semantics"
+  ]
+}

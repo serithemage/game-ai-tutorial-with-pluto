@@ -1,0 +1,28 @@
+[
+  {
+    "file": "vendor/pluto/pluto.dll",
+    "size": 465934,
+    "sha256": "7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef",
+    "pe_machine": "0x14c",
+    "section_count": 9
+  },
+  {
+    "file": "vendor/pluto/README.txt",
+    "size": 5296,
+    "sha256": "0bbf95b62c2ffae9c2f069942c9757cad77ed07c61b60318fadc88a0c1cfbe3b",
+    "first_64_bytes_hex": "2320506c75746f0a0a506c75746f2069732061205374617243726166743a2042726f6f64205761722041492e20412073696e676c65206e657572616c206e6574"
+  },
+  {
+    "file": "vendor/pluto/pluto/pluto_weights.bin",
+    "size": 320491920,
+    "sha256": "00b400eace6e4782202ebdcb3c30db76054aaa6a08c6a7dcb59575abc2d0a26e",
+    "first_64_bytes_hex": "504c57420100000018d80000000000007b0a202022666f726d61745f76657273696f6e223a20312c0a2020226474797065223a2022666c6f61743332222c0a20"
+  },
+  {
+    "file": "vendor/pluto/pluto/pluto_infer.exe",
+    "size": 1638912,
+    "sha256": "ad880d8be52a6ef03893fa20644b6627e04fcd55e030178c6d52486b82340f2b",
+    "pe_machine": "0x8664",
+    "section_count": 9
+  }
+]

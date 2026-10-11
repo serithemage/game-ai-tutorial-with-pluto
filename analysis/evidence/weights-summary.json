@@ -1,0 +1,28 @@
+{
+  "magic": "PLWB",
+  "container_version": 1,
+  "sha256": "00b400eace6e4782202ebdcb3c30db76054aaa6a08c6a7dcb59575abc2d0a26e",
+  "json_bytes": 55320,
+  "header_end": 55336,
+  "padding_bytes": 24,
+  "payload_start": 55360,
+  "payload_bytes": 320436560,
+  "file_size": 320491920,
+  "tensor_counts": {
+    "float32": 114,
+    "int8": 133,
+    "bfloat16": 22
+  },
+  "tensor_elements_by_dtype": {
+    "float32": 354561,
+    "int8": 311372544,
+    "bfloat16": 3312896
+  },
+  "total_tensor_elements": 315040001,
+  "validation_errors": [],
+  "limitations": [
+    "Header names and model_config are artifact metadata, not proof of runtime semantics.",
+    "Tensor elements include any serialized parameters or buffers; this is not a verified trainable parameter count.",
+    "Payload alignment is checked for this version and release only."
+  ]
+}

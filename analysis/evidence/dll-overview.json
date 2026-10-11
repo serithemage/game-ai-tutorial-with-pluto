@@ -1,0 +1,138 @@
+{
+  "evidence_id": "ev_5d1aea23c9a0004e4e9f4a332f4001c393bf42ec98b0fe46776328871b29f563",
+  "subject": {
+    "name": "pluto.dll",
+    "digest": {
+      "sha256": "7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef"
+    },
+    "format": "pe",
+    "architecture": "x86",
+    "local_path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto.dll"
+  },
+  "provider": {
+    "id": "rea-workflow",
+    "name": "REA composed investigation workflow",
+    "version": "1"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "rea-workflow",
+      "name": "REA composed investigation workflow",
+      "version": "1"
+    },
+    "parameters": {
+      "upstream_analysis_profile": {
+        "provider": {
+          "id": "ghidra",
+          "name": "Ghidra",
+          "version": "12.1.4"
+        },
+        "parameters": {
+          "target_kind": "executable",
+          "target_format": "pe",
+          "architecture": "x86",
+          "available_architectures": [
+            "x86"
+          ],
+          "import_mode": "ephemeral-source-immutable",
+          "annotation_policy": "atomic-function-entry-metadata-v1",
+          "load_image_observations": "source-mappings-entry-context-v2",
+          "function_body_evidence": "complete-inclusive-ranges-v1",
+          "function_references": "complete-body-and-entry-reference-manager-v2",
+          "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+          "instruction_flow_evidence": "decoded-return-pcode-v1",
+          "process_launch": "inspected-jvm-launch-support-v1",
+          "jump_table_evidence": "typed-case-default-blocks-v1",
+          "decompiler_jump_loads": true,
+          "loader": "auto-from-header",
+          "language_id": "auto-from-header",
+          "compiler_spec_id": "auto-default",
+          "analyzer_preset": "ghidra-default"
+        },
+        "digest": "4513115bab7888881fb0de2520dcb07ca78c153f12a628d194cdb67f70d67075"
+      },
+      "workflow_revision": 2
+    },
+    "digest": "e4129f251bf639500afebfb6bbcdecd1d7153dc4357bffe5eb4e277c7771450f"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "binary_overview",
+  "parameters": {},
+  "raw_result": null,
+  "normalized_result": {
+    "document": "target-7e360b643c8c.dll",
+    "segments": [
+      {
+        "name": "Headers",
+        "start": "0x63f80000",
+        "end": "0x63f80400",
+        "length": 1024
+      },
+      {
+        "name": ".text",
+        "start": "0x63f81000",
+        "end": "0x63fd1c00",
+        "length": 330752
+      },
+      {
+        "name": ".data",
+        "start": "0x63fd2000",
+        "end": "0x63fd2800",
+        "length": 2048
+      },
+      {
+        "name": ".rdata",
+        "start": "0x63fd3000",
+        "end": "0x63fdf200",
+        "length": 49664
+      },
+      {
+        "name": ".eh_frame",
+        "start": "0x63fe0000",
+        "end": "0x63ff0200",
+        "length": 66048
+      },
+      {
+        "name": ".bss",
+        "start": "0x63ff1000",
+        "end": "0x63ff3658",
+        "length": 9816
+      },
+      {
+        "name": ".edata",
+        "start": "0x63ff4000",
+        "end": "0x63ff4200",
+        "length": 512
+      },
+      {
+        "name": ".idata",
+        "start": "0x63ff5000",
+        "end": "0x63ff5e00",
+        "length": 3584
+      },
+      {
+        "name": ".tls",
+        "start": "0x63ff6000",
+        "end": "0x63ff6200",
+        "length": 512
+      },
+      {
+        "name": ".reloc",
+        "start": "0x63ff7000",
+        "end": "0x63ff9e00",
+        "length": 11776
+      }
+    ],
+    "segment_count": 10,
+    "procedure_count": 687,
+    "string_count": 639
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Derived by an REA composed workflow."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    "scouting toggle",
+    "keyboard sliders",
+    "weight reset",
+    "memory endpoints",
+    "quantization",
+    "learning stages",
+    "quiz feedback",
+    "evidence disclosure",
+    "desktop and mobile overflow",
+    "report route",
+    "no-JavaScript reading",
+    "no browser failures"
+  ],
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "base": "http://127.0.0.1:8765/_site/"
+}

@@ -1,0 +1,373 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_8168f30196ecdabbf43cf7e494edd4673177803be5844b6b74ff222019ba1dba\",\"subject\":{\"name\":\"pluto.dll\",\"digest\":{\"sha256\":\"7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef\"},\"format\":\"pe\",\"architecture\":\"x86\",\"local_path\":\"/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto.dll\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"pe\",\"architecture\":\"x86\",\"available_architectures\":[\"x86\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"4513115bab7888881fb0de2520dcb07ca78c153f12a628d194cdb67f70d67075\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"resolve_containing_procedure\",\"parameters\":{\"address\":\"0x63fb555f\"},\"raw_result\":{\"query_address\":\"0x63fb555f\",\"found\":true,\"procedure\":{\"address\":\"0x63fb5420\",\"name\":\"FUN_63fb5420\",\"classification\":{\"external\":false,\"thunk\":false,\"thunk_target\":null,\"provenance\":\"ghidra-function-manager\"},\"body\":{\"available\":true,\"provenance\":\"ghidra-function-body-address-set\",\"ranges\":[{\"start\":\"0x63fb5420\",\"end\":\"0x63fb5833\"},{\"start\":\"0x63fb5838\",\"end\":\"0x63fb5859\"},{\"start\":\"0x63fb5860\",\"end\":\"0x63fb5f4a\"},{\"start\":\"0x63fb5f50\",\"end\":\"0x63fb5f5d\"},{\"start\":\"0x63fb5f60\",\"end\":\"0x63fb5f6c\"},{\"start\":\"0x63fb5f70\",\"end\":\"0x63fb5f83\"},{\"start\":\"0x63fb5f88\",\"end\":\"0x63fb5fd3\"},{\"start\":\"0x63fb5fd8\",\"end\":\"0x63fb608a\"},{\"start\":\"0x63fb6090\",\"end\":\"0x63fb609b\"},{\"start\":\"0x63fb60a0\",\"end\":\"0x63fb6228\"},{\"start\":\"0x63fb6230\",\"end\":\"0x63fb6296\"},{\"start\":\"0x63fb62a0\",\"end\":\"0x63fb6301\"},{\"start\":\"0x63fb6308\",\"end\":\"0x63fb6337\"},{\"start\":\"0x63fb6340\",\"end\":\"0x63fb634d\"},{\"start\":\"0x63fb6350\",\"end\":\"0x63fb6366\"},{\"start\":\"0x63fb6370\",\"end\":\"0x63fb6379\"},{\"start\":\"0x63fb6380\",\"end\":\"0x63fb6389\"},{\"start\":\"0x63fb6390\",\"end\":\"0x63fb63d9\"},{\"start\":\"0x63fb63e0\",\"end\":\"0x63fb63ea\"},{\"start\":\"0x63fb63f0\",\"end\":\"0x63fb640d\"},{\"start\":\"0x63fb6410\",\"end\":\"0x63fb65fd\"},{\"start\":\"0x63fb6600\",\"end\":\"0x63fb662d\"},{\"start\":\"0x63fb6630\",\"end\":\"0x63fb6689\"},{\"start\":\"0x63fb6690\",\"end\":\"0x63fb66f6\"},{\"start\":\"0x63fb6700\",\"end\":\"0x63fb6721\"},{\"start\":\"0x63fb6728\",\"end\":\"0x63fb6794\"},{\"start\":\"0x63fb6798\",\"end\":\"0x63fb67fe\"},{\"start\":\"0x63fb6800\",\"end\":\"0x63fb680c\"},{\"start\":\"0x63fb6810\",\"end\":\"0x63fb681c\"},{\"start\":\"0x63fb6820\",\"end\":\"0x63fb6830\"},{\"start\":\"0x63fb6838\",\"end\":\"0x63fb7058\"}],\"total_bytes\":7080,\"span_bytes\":7225,\"non_contiguous\":true,\"contains_entry\":true}}},\"normalized_result\":{\"query_address\":\"0x63fb555f\",\"found\":true,\"procedure\":{\"address\":\"0x63fb5420\",\"name\":\"FUN_63fb5420\",\"classification\":{\"external\":false,\"thunk\":false,\"thunk_target\":null,\"provenance\":\"ghidra-function-manager\"},\"body\":{\"available\":true,\"provenance\":\"ghidra-function-body-address-set\",\"ranges\":[{\"start\":\"0x63fb5420\",\"end\":\"0x63fb5833\"},{\"start\":\"0x63fb5838\",\"end\":\"0x63fb5859\"},{\"start\":\"0x63fb5860\",\"end\":\"0x63fb5f4a\"},{\"start\":\"0x63fb5f50\",\"end\":\"0x63fb5f5d\"},{\"start\":\"0x63fb5f60\",\"end\":\"0x63fb5f6c\"},{\"start\":\"0x63fb5f70\",\"end\":\"0x63fb5f83\"},{\"start\":\"0x63fb5f88\",\"end\":\"0x63fb5fd3\"},{\"start\":\"0x63fb5fd8\",\"end\":\"0x63fb608a\"},{\"start\":\"0x63fb6090\",\"end\":\"0x63fb609b\"},{\"start\":\"0x63fb60a0\",\"end\":\"0x63fb6228\"},{\"start\":\"0x63fb6230\",\"end\":\"0x63fb6296\"},{\"start\":\"0x63fb62a0\",\"end\":\"0x63fb6301\"},{\"start\":\"0x63fb6308\",\"end\":\"0x63fb6337\"},{\"start\":\"0x63fb6340\",\"end\":\"0x63fb634d\"},{\"start\":\"0x63fb6350\",\"end\":\"0x63fb6366\"},{\"start\":\"0x63fb6370\",\"end\":\"0x63fb6379\"},{\"start\":\"0x63fb6380\",\"end\":\"0x63fb6389\"},{\"start\":\"0x63fb6390\",\"end\":\"0x63fb63d9\"},{\"start\":\"0x63fb63e0\",\"end\":\"0x63fb63ea\"},{\"start\":\"0x63fb63f0\",\"end\":\"0x63fb640d\"},{\"start\":\"0x63fb6410\",\"end\":\"0x63fb65fd\"},{\"start\":\"0x63fb6600\",\"end\":\"0x63fb662d\"},{\"start\":\"0x63fb6630\",\"end\":\"0x63fb6689\"},{\"start\":\"0x63fb6690\",\"end\":\"0x63fb66f6\"},{\"start\":\"0x63fb6700\",\"end\":\"0x63fb6721\"},{\"start\":\"0x63fb6728\",\"end\":\"0x63fb6794\"},{\"start\":\"0x63fb6798\",\"end\":\"0x63fb67fe\"},{\"start\":\"0x63fb6800\",\"end\":\"0x63fb680c\"},{\"start\":\"0x63fb6810\",\"end\":\"0x63fb681c\"},{\"start\":\"0x63fb6820\",\"end\":\"0x63fb6830\"},{\"start\":\"0x63fb6838\",\"end\":\"0x63fb7058\"}],\"total_bytes\":7080,\"span_bytes\":7225,\"non_contiguous\":true,\"contains_entry\":true}}},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"An exact external entry resolves to its observed function identity even when its body is empty. This does not establish mapped executable bytes or containment of nearby external addresses.\",\"macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state.\"],\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_8168f30196ecdabbf43cf7e494edd4673177803be5844b6b74ff222019ba1dba",
+      "subject": {
+        "name": "pluto.dll",
+        "digest": {
+          "sha256": "7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef"
+        },
+        "format": "pe",
+        "architecture": "x86",
+        "local_path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto.dll"
+      },
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "analysis_profile": {
+        "provider": {
+          "id": "ghidra",
+          "name": "Ghidra",
+          "version": "12.1.4"
+        },
+        "parameters": {
+          "target_kind": "executable",
+          "target_format": "pe",
+          "architecture": "x86",
+          "available_architectures": [
+            "x86"
+          ],
+          "import_mode": "ephemeral-source-immutable",
+          "annotation_policy": "atomic-function-entry-metadata-v1",
+          "load_image_observations": "source-mappings-entry-context-v2",
+          "function_body_evidence": "complete-inclusive-ranges-v1",
+          "function_references": "complete-body-and-entry-reference-manager-v2",
+          "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+          "instruction_flow_evidence": "decoded-return-pcode-v1",
+          "process_launch": "inspected-jvm-launch-support-v1",
+          "jump_table_evidence": "typed-case-default-blocks-v1",
+          "decompiler_jump_loads": true,
+          "loader": "auto-from-header",
+          "language_id": "auto-from-header",
+          "compiler_spec_id": "auto-default",
+          "analyzer_preset": "ghidra-default"
+        },
+        "digest": "4513115bab7888881fb0de2520dcb07ca78c153f12a628d194cdb67f70d67075"
+      },
+      "predicate_type": "rea.analysis",
+      "operation": "resolve_containing_procedure",
+      "parameters": {
+        "address": "0x63fb555f"
+      },
+      "raw_result": {
+        "query_address": "0x63fb555f",
+        "found": true,
+        "procedure": {
+          "address": "0x63fb5420",
+          "name": "FUN_63fb5420",
+          "classification": {
+            "external": false,
+            "thunk": false,
+            "thunk_target": null,
+            "provenance": "ghidra-function-manager"
+          },
+          "body": {
+            "available": true,
+            "provenance": "ghidra-function-body-address-set",
+            "ranges": [
+              {
+                "start": "0x63fb5420",
+                "end": "0x63fb5833"
+              },
+              {
+                "start": "0x63fb5838",
+                "end": "0x63fb5859"
+              },
+              {
+                "start": "0x63fb5860",
+                "end": "0x63fb5f4a"
+              },
+              {
+                "start": "0x63fb5f50",
+                "end": "0x63fb5f5d"
+              },
+              {
+                "start": "0x63fb5f60",
+                "end": "0x63fb5f6c"
+              },
+              {
+                "start": "0x63fb5f70",
+                "end": "0x63fb5f83"
+              },
+              {
+                "start": "0x63fb5f88",
+                "end": "0x63fb5fd3"
+              },
+              {
+                "start": "0x63fb5fd8",
+                "end": "0x63fb608a"
+              },
+              {
+                "start": "0x63fb6090",
+                "end": "0x63fb609b"
+              },
+              {
+                "start": "0x63fb60a0",
+                "end": "0x63fb6228"
+              },
+              {
+                "start": "0x63fb6230",
+                "end": "0x63fb6296"
+              },
+              {
+                "start": "0x63fb62a0",
+                "end": "0x63fb6301"
+              },
+              {
+                "start": "0x63fb6308",
+                "end": "0x63fb6337"
+              },
+              {
+                "start": "0x63fb6340",
+                "end": "0x63fb634d"
+              },
+              {
+                "start": "0x63fb6350",
+                "end": "0x63fb6366"
+              },
+              {
+                "start": "0x63fb6370",
+                "end": "0x63fb6379"
+              },
+              {
+                "start": "0x63fb6380",
+                "end": "0x63fb6389"
+              },
+              {
+                "start": "0x63fb6390",
+                "end": "0x63fb63d9"
+              },
+              {
+                "start": "0x63fb63e0",
+                "end": "0x63fb63ea"
+              },
+              {
+                "start": "0x63fb63f0",
+                "end": "0x63fb640d"
+              },
+              {
+                "start": "0x63fb6410",
+                "end": "0x63fb65fd"
+              },
+              {
+                "start": "0x63fb6600",
+                "end": "0x63fb662d"
+              },
+              {
+                "start": "0x63fb6630",
+                "end": "0x63fb6689"
+              },
+              {
+                "start": "0x63fb6690",
+                "end": "0x63fb66f6"
+              },
+              {
+                "start": "0x63fb6700",
+                "end": "0x63fb6721"
+              },
+              {
+                "start": "0x63fb6728",
+                "end": "0x63fb6794"
+              },
+              {
+                "start": "0x63fb6798",
+                "end": "0x63fb67fe"
+              },
+              {
+                "start": "0x63fb6800",
+                "end": "0x63fb680c"
+              },
+              {
+                "start": "0x63fb6810",
+                "end": "0x63fb681c"
+              },
+              {
+                "start": "0x63fb6820",
+                "end": "0x63fb6830"
+              },
+              {
+                "start": "0x63fb6838",
+                "end": "0x63fb7058"
+              }
+            ],
+            "total_bytes": 7080,
+            "span_bytes": 7225,
+            "non_contiguous": true,
+            "contains_entry": true
+          }
+        }
+      },
+      "normalized_result": {
+        "query_address": "0x63fb555f",
+        "found": true,
+        "procedure": {
+          "address": "0x63fb5420",
+          "name": "FUN_63fb5420",
+          "classification": {
+            "external": false,
+            "thunk": false,
+            "thunk_target": null,
+            "provenance": "ghidra-function-manager"
+          },
+          "body": {
+            "available": true,
+            "provenance": "ghidra-function-body-address-set",
+            "ranges": [
+              {
+                "start": "0x63fb5420",
+                "end": "0x63fb5833"
+              },
+              {
+                "start": "0x63fb5838",
+                "end": "0x63fb5859"
+              },
+              {
+                "start": "0x63fb5860",
+                "end": "0x63fb5f4a"
+              },
+              {
+                "start": "0x63fb5f50",
+                "end": "0x63fb5f5d"
+              },
+              {
+                "start": "0x63fb5f60",
+                "end": "0x63fb5f6c"
+              },
+              {
+                "start": "0x63fb5f70",
+                "end": "0x63fb5f83"
+              },
+              {
+                "start": "0x63fb5f88",
+                "end": "0x63fb5fd3"
+              },
+              {
+                "start": "0x63fb5fd8",
+                "end": "0x63fb608a"
+              },
+              {
+                "start": "0x63fb6090",
+                "end": "0x63fb609b"
+              },
+              {
+                "start": "0x63fb60a0",
+                "end": "0x63fb6228"
+              },
+              {
+                "start": "0x63fb6230",
+                "end": "0x63fb6296"
+              },
+              {
+                "start": "0x63fb62a0",
+                "end": "0x63fb6301"
+              },
+              {
+                "start": "0x63fb6308",
+                "end": "0x63fb6337"
+              },
+              {
+                "start": "0x63fb6340",
+                "end": "0x63fb634d"
+              },
+              {
+                "start": "0x63fb6350",
+                "end": "0x63fb6366"
+              },
+              {
+                "start": "0x63fb6370",
+                "end": "0x63fb6379"
+              },
+              {
+                "start": "0x63fb6380",
+                "end": "0x63fb6389"
+              },
+              {
+                "start": "0x63fb6390",
+                "end": "0x63fb63d9"
+              },
+              {
+                "start": "0x63fb63e0",
+                "end": "0x63fb63ea"
+              },
+              {
+                "start": "0x63fb63f0",
+                "end": "0x63fb640d"
+              },
+              {
+                "start": "0x63fb6410",
+                "end": "0x63fb65fd"
+              },
+              {
+                "start": "0x63fb6600",
+                "end": "0x63fb662d"
+              },
+              {
+                "start": "0x63fb6630",
+                "end": "0x63fb6689"
+              },
+              {
+                "start": "0x63fb6690",
+                "end": "0x63fb66f6"
+              },
+              {
+                "start": "0x63fb6700",
+                "end": "0x63fb6721"
+              },
+              {
+                "start": "0x63fb6728",
+                "end": "0x63fb6794"
+              },
+              {
+                "start": "0x63fb6798",
+                "end": "0x63fb67fe"
+              },
+              {
+                "start": "0x63fb6800",
+                "end": "0x63fb680c"
+              },
+              {
+                "start": "0x63fb6810",
+                "end": "0x63fb681c"
+              },
+              {
+                "start": "0x63fb6820",
+                "end": "0x63fb6830"
+              },
+              {
+                "start": "0x63fb6838",
+                "end": "0x63fb7058"
+              }
+            ],
+            "total_bytes": 7080,
+            "span_bytes": 7225,
+            "non_contiguous": true,
+            "contains_entry": true
+          }
+        }
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+        "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+        "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+        "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+        "An exact external entry resolves to its observed function identity even when its body is empty. This does not establish mapped executable bytes or containment of nearby external addresses.",
+        "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+      ],
+      "locations": [],
+      "evidence_links": []
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 4
+}

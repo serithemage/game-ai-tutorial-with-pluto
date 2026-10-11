@@ -1,0 +1,21 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"path\":\"/Users/dohyunjung/Workspace/roboco-io/research/pluto/analysis/evidence/infer.snapshot.json\",\"bytes\":968473,\"primitive_entries\":0,\"workflow_entries\":1,\"evidence_records\":29}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/analysis/evidence/infer.snapshot.json",
+        "bytes": 968473,
+        "primitive_entries": 0,
+        "workflow_entries": 1,
+        "evidence_records": 29
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 33
+}

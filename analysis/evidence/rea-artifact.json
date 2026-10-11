@@ -1,0 +1,675 @@
+{
+  "evidence_id": "ev_92150fe0501ed8ecae1fa51bf8b0f23245f499398e65b028080e7362587658f9",
+  "subject": {
+    "name": "pluto-cog2026-2578600.zip",
+    "digest": {
+      "sha256": "d4e2225446f5048e131065357173952f0286586da77ebb8bddf7fc766c3844a5"
+    },
+    "format": "zip",
+    "architecture": null,
+    "local_path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto-cog2026-2578600.zip"
+  },
+  "provider": {
+    "id": "rea-artifact-graph",
+    "name": "REA safe artifact graph provider",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_artifact",
+  "parameters": {
+    "integrity_policy": "fail"
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "inspection_id": "ai_971c5fb6ac9a90aee3913bfb776a85bb2044164f085e26c283201e09dfc8456b",
+    "subject": {
+      "manifest_id": "agm_10bcd6a12f3325c14e78615b4247cc3661dc9c16413b7768d23c61500d47e04b",
+      "root_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+      "root_sha256": "d4e2225446f5048e131065357173952f0286586da77ebb8bddf7fc766c3844a5",
+      "root_format": "zip"
+    },
+    "substeps": [
+      {
+        "substep_id": "ais_019cf10d792c31fb5d7f77c8fccdd0d7ee759048f2c1159af00fcf04ed5f8051",
+        "operation": "inventory_artifact",
+        "status": "completed",
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34",
+        "evidence": {
+          "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34",
+          "subject": {
+            "name": "pluto-cog2026-2578600.zip",
+            "digest": {
+              "sha256": "d4e2225446f5048e131065357173952f0286586da77ebb8bddf7fc766c3844a5"
+            },
+            "format": "zip",
+            "architecture": null,
+            "local_path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto-cog2026-2578600.zip"
+          },
+          "provider": {
+            "id": "rea-artifact-graph",
+            "name": "REA safe artifact graph provider",
+            "version": "1"
+          },
+          "analysis_profile": null,
+          "predicate_type": "rea.analysis",
+          "operation": "inventory_artifact",
+          "parameters": {
+            "integrity_policy": "fail"
+          },
+          "raw_result": null,
+          "normalized_result": {
+            "manifest": {
+              "manifest_id": "agm_10bcd6a12f3325c14e78615b4247cc3661dc9c16413b7768d23c61500d47e04b",
+              "root_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+              "root_sha256": "d4e2225446f5048e131065357173952f0286586da77ebb8bddf7fc766c3844a5",
+              "root_format": "zip",
+              "graph_sha256": "16a0984150fd125aa668e185fc84b6395bc767ef7d43b73ac0b79043e42b3b25",
+              "node_count": 6,
+              "occurrence_count": 6,
+              "edge_count": 5
+            },
+            "nodes": [
+              {
+                "artifact_id": "art_82efe1f545d17056d4cc4d0431c7533af57b7404821c3537748199c91fd9e07d",
+                "format": "file",
+                "sha256": "0bbf95b62c2ffae9c2f069942c9757cad77ed07c61b60318fadc88a0c1cfbe3b",
+                "size": 5296,
+                "media_type": null,
+                "architecture": null,
+                "content_state": "embedded",
+                "limitations": []
+              },
+              {
+                "artifact_id": "art_b56da5a187c9bb7735e74d4ea4448ba2292731945c8fbd87cc4a4a40dc1bf064",
+                "format": "pe",
+                "sha256": "7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef",
+                "size": 465934,
+                "media_type": null,
+                "architecture": null,
+                "content_state": "embedded",
+                "limitations": []
+              },
+              {
+                "artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+                "format": "directory",
+                "sha256": "70941c7a063d4c2804934a80cf68aa9725a5e1eeb9d3b3c1cf1271ca5c6e8830",
+                "size": 0,
+                "media_type": null,
+                "architecture": null,
+                "content_state": "virtual",
+                "limitations": []
+              },
+              {
+                "artifact_id": "art_d9f7f69c710f2cc9d10b44256824e8f8de936c13a1cb367291caa54d4aa26d43",
+                "format": "file",
+                "sha256": "00b400eace6e4782202ebdcb3c30db76054aaa6a08c6a7dcb59575abc2d0a26e",
+                "size": 320491920,
+                "media_type": null,
+                "architecture": null,
+                "content_state": "embedded",
+                "limitations": []
+              },
+              {
+                "artifact_id": "art_dd6608d0eb371db8d345966557f8a310a795493f5697d513114370eb4d9e567a",
+                "format": "pe",
+                "sha256": "ad880d8be52a6ef03893fa20644b6627e04fcd55e030178c6d52486b82340f2b",
+                "size": 1638912,
+                "media_type": null,
+                "architecture": null,
+                "content_state": "embedded",
+                "limitations": []
+              },
+              {
+                "artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+                "format": "zip",
+                "sha256": "d4e2225446f5048e131065357173952f0286586da77ebb8bddf7fc766c3844a5",
+                "size": 285549634,
+                "media_type": null,
+                "architecture": null,
+                "content_state": "materialized",
+                "limitations": []
+              }
+            ],
+            "occurrences": [
+              {
+                "occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+                "artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+                "parent_occurrence_id": null,
+                "logical_path": ".",
+                "entry_kind": "file",
+                "artifact_kind": "container",
+                "artifact_format": "zip",
+                "declared_size": 285549634,
+                "compressed_size": null,
+                "executable": false,
+                "encrypted": false,
+                "hash_status": "verified",
+                "source_location": null,
+                "limitations": []
+              },
+              {
+                "occurrence_id": "occ_db7acbcdb3dd166db4b0369b01f718c9dcaa9aa48a9d3f5013579ad3335af724",
+                "artifact_id": "art_82efe1f545d17056d4cc4d0431c7533af57b7404821c3537748199c91fd9e07d",
+                "parent_occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+                "logical_path": "README.txt",
+                "entry_kind": "file",
+                "artifact_kind": "resource",
+                "artifact_format": "file",
+                "declared_size": 5296,
+                "compressed_size": 2580,
+                "executable": false,
+                "encrypted": false,
+                "hash_status": "verified",
+                "source_location": null,
+                "limitations": []
+              },
+              {
+                "occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+                "artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+                "parent_occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+                "logical_path": "pluto",
+                "entry_kind": "directory",
+                "artifact_kind": "container",
+                "artifact_format": "directory",
+                "declared_size": null,
+                "compressed_size": null,
+                "executable": true,
+                "encrypted": false,
+                "hash_status": "verified",
+                "source_location": null,
+                "limitations": []
+              },
+              {
+                "occurrence_id": "occ_6bab34ac885a77548099cca7e6fd2914def13751d05366717ce727cd7910c7ef",
+                "artifact_id": "art_b56da5a187c9bb7735e74d4ea4448ba2292731945c8fbd87cc4a4a40dc1bf064",
+                "parent_occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+                "logical_path": "pluto.dll",
+                "entry_kind": "file",
+                "artifact_kind": "executable",
+                "artifact_format": "pe",
+                "declared_size": 465934,
+                "compressed_size": 206729,
+                "executable": true,
+                "encrypted": false,
+                "hash_status": "verified",
+                "source_location": null,
+                "limitations": []
+              },
+              {
+                "occurrence_id": "occ_741a5fe532123ff9246e737e75a7648bbe1d9bfefb329f69a6ca940c933cb025",
+                "artifact_id": "art_dd6608d0eb371db8d345966557f8a310a795493f5697d513114370eb4d9e567a",
+                "parent_occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+                "logical_path": "pluto/pluto_infer.exe",
+                "entry_kind": "file",
+                "artifact_kind": "executable",
+                "artifact_format": "pe",
+                "declared_size": 1638912,
+                "compressed_size": 676497,
+                "executable": true,
+                "encrypted": false,
+                "hash_status": "verified",
+                "source_location": null,
+                "limitations": []
+              },
+              {
+                "occurrence_id": "occ_c45f291072fd98d19f5c7100f3d0e192d7e2396f127999c25173610622072bf6",
+                "artifact_id": "art_d9f7f69c710f2cc9d10b44256824e8f8de936c13a1cb367291caa54d4aa26d43",
+                "parent_occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+                "logical_path": "pluto/pluto_weights.bin",
+                "entry_kind": "file",
+                "artifact_kind": "resource",
+                "artifact_format": "file",
+                "declared_size": 320491920,
+                "compressed_size": 284663028,
+                "executable": false,
+                "encrypted": false,
+                "hash_status": "verified",
+                "source_location": null,
+                "limitations": []
+              }
+            ],
+            "edges": [
+              {
+                "edge_id": "edge_0c54bc2d52fe65cf8b593f6e0ceefa7694a3eb6e7f52334c9467e2f5f0807588",
+                "ordinal": 0,
+                "parent_artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+                "child_artifact_id": "art_d9f7f69c710f2cc9d10b44256824e8f8de936c13a1cb367291caa54d4aa26d43",
+                "relation": "contains",
+                "occurrence_id": "occ_c45f291072fd98d19f5c7100f3d0e192d7e2396f127999c25173610622072bf6",
+                "logical_path": "pluto/pluto_weights.bin",
+                "producer": null
+              },
+              {
+                "edge_id": "edge_41ad597548b093b6958a97b896ac66b77993dd0701ec515460f7d8dacdda1057",
+                "ordinal": 1,
+                "parent_artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+                "child_artifact_id": "art_dd6608d0eb371db8d345966557f8a310a795493f5697d513114370eb4d9e567a",
+                "relation": "contains",
+                "occurrence_id": "occ_741a5fe532123ff9246e737e75a7648bbe1d9bfefb329f69a6ca940c933cb025",
+                "logical_path": "pluto/pluto_infer.exe",
+                "producer": null
+              },
+              {
+                "edge_id": "edge_562275d186a5fa64837d67cf393e8ebaa1c22f99747ce33664fcb3c7a9726862",
+                "ordinal": 2,
+                "parent_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+                "child_artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+                "relation": "contains",
+                "occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+                "logical_path": "pluto",
+                "producer": null
+              },
+              {
+                "edge_id": "edge_d41dbb19b67b9452ea442663ee66ca53305d3a3ad14fd3e92be4c8f85678761b",
+                "ordinal": 3,
+                "parent_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+                "child_artifact_id": "art_b56da5a187c9bb7735e74d4ea4448ba2292731945c8fbd87cc4a4a40dc1bf064",
+                "relation": "contains",
+                "occurrence_id": "occ_6bab34ac885a77548099cca7e6fd2914def13751d05366717ce727cd7910c7ef",
+                "logical_path": "pluto.dll",
+                "producer": null
+              },
+              {
+                "edge_id": "edge_fdad3b5919b98dbefa224a8124e613923040fd6e3a1371187f019b3f9e193b82",
+                "ordinal": 4,
+                "parent_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+                "child_artifact_id": "art_82efe1f545d17056d4cc4d0431c7533af57b7404821c3537748199c91fd9e07d",
+                "relation": "contains",
+                "occurrence_id": "occ_db7acbcdb3dd166db4b0369b01f718c9dcaa9aa48a9d3f5013579ad3335af724",
+                "logical_path": "README.txt",
+                "producer": null
+              }
+            ],
+            "provenance": [],
+            "integrity_contradictions": [],
+            "limitations": []
+          },
+          "confidence": "observed",
+          "authority": "shipped-artifact",
+          "environment": null,
+          "limitations": [],
+          "locations": [
+            {
+              "kind": "artifact-path",
+              "path": "."
+            },
+            {
+              "kind": "artifact-path",
+              "path": "README.txt"
+            },
+            {
+              "kind": "artifact-path",
+              "path": "pluto"
+            },
+            {
+              "kind": "artifact-path",
+              "path": "pluto.dll"
+            },
+            {
+              "kind": "artifact-path",
+              "path": "pluto/pluto_infer.exe"
+            },
+            {
+              "kind": "artifact-path",
+              "path": "pluto/pluto_weights.bin"
+            }
+          ],
+          "evidence_links": []
+        }
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "aio_3c5f02324c3aeccf53a3bb96cd15a40cae3fe8cb95d1a702f4019a3e37b2980a",
+        "kind": "root-manifest",
+        "subject": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+        "value": {
+          "manifest_id": "agm_10bcd6a12f3325c14e78615b4247cc3661dc9c16413b7768d23c61500d47e04b",
+          "root_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+          "root_sha256": "d4e2225446f5048e131065357173952f0286586da77ebb8bddf7fc766c3844a5",
+          "root_format": "zip",
+          "graph_sha256": "16a0984150fd125aa668e185fc84b6395bc767ef7d43b73ac0b79043e42b3b25",
+          "node_count": 6,
+          "occurrence_count": 6,
+          "edge_count": 5
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_e8a57c61a623713486d61a55ae226bc0bb08a280da175698ab92238de021657b",
+        "kind": "artifact",
+        "subject": "art_82efe1f545d17056d4cc4d0431c7533af57b7404821c3537748199c91fd9e07d",
+        "value": {
+          "artifact_id": "art_82efe1f545d17056d4cc4d0431c7533af57b7404821c3537748199c91fd9e07d",
+          "format": "file",
+          "sha256": "0bbf95b62c2ffae9c2f069942c9757cad77ed07c61b60318fadc88a0c1cfbe3b",
+          "size": 5296,
+          "media_type": null,
+          "architecture": null,
+          "content_state": "embedded",
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_48401f010f5110b3bdf274a549409c19a10ba7942eeda651efb5ee7146847a6e",
+        "kind": "artifact",
+        "subject": "art_b56da5a187c9bb7735e74d4ea4448ba2292731945c8fbd87cc4a4a40dc1bf064",
+        "value": {
+          "artifact_id": "art_b56da5a187c9bb7735e74d4ea4448ba2292731945c8fbd87cc4a4a40dc1bf064",
+          "format": "pe",
+          "sha256": "7e360b643c8c0156c03fe0cad9972a3058138ccfe22f921c5b4e0cd0aaf0abef",
+          "size": 465934,
+          "media_type": null,
+          "architecture": null,
+          "content_state": "embedded",
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_80f985cd054b6522f30c16ff001024a19390a2cc07c96b9a163d9459dac61752",
+        "kind": "artifact",
+        "subject": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+        "value": {
+          "artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+          "format": "directory",
+          "sha256": "70941c7a063d4c2804934a80cf68aa9725a5e1eeb9d3b3c1cf1271ca5c6e8830",
+          "size": 0,
+          "media_type": null,
+          "architecture": null,
+          "content_state": "virtual",
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_eb725f962b8cb370b45af671ea2c85e27ab0123d75c32fb81837cea2bb2be980",
+        "kind": "artifact",
+        "subject": "art_d9f7f69c710f2cc9d10b44256824e8f8de936c13a1cb367291caa54d4aa26d43",
+        "value": {
+          "artifact_id": "art_d9f7f69c710f2cc9d10b44256824e8f8de936c13a1cb367291caa54d4aa26d43",
+          "format": "file",
+          "sha256": "00b400eace6e4782202ebdcb3c30db76054aaa6a08c6a7dcb59575abc2d0a26e",
+          "size": 320491920,
+          "media_type": null,
+          "architecture": null,
+          "content_state": "embedded",
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_7e57c769e9b3ed87d185104eb5ae90f23e0b32f06493b04beb9a089491b7a018",
+        "kind": "artifact",
+        "subject": "art_dd6608d0eb371db8d345966557f8a310a795493f5697d513114370eb4d9e567a",
+        "value": {
+          "artifact_id": "art_dd6608d0eb371db8d345966557f8a310a795493f5697d513114370eb4d9e567a",
+          "format": "pe",
+          "sha256": "ad880d8be52a6ef03893fa20644b6627e04fcd55e030178c6d52486b82340f2b",
+          "size": 1638912,
+          "media_type": null,
+          "architecture": null,
+          "content_state": "embedded",
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_cffcfe0ec40edbc2b437b2ef47a76b0c469e507ab2e21625f6c55de7930ee392",
+        "kind": "artifact",
+        "subject": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+        "value": {
+          "artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+          "format": "zip",
+          "sha256": "d4e2225446f5048e131065357173952f0286586da77ebb8bddf7fc766c3844a5",
+          "size": 285549634,
+          "media_type": null,
+          "architecture": null,
+          "content_state": "materialized",
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_e1d54ac35345beac463aee42959f983a4bc831cd02b282d16bb2a81c7f1cc772",
+        "kind": "occurrence",
+        "subject": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+        "value": {
+          "occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+          "artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+          "parent_occurrence_id": null,
+          "logical_path": ".",
+          "entry_kind": "file",
+          "artifact_kind": "container",
+          "artifact_format": "zip",
+          "declared_size": 285549634,
+          "compressed_size": null,
+          "executable": false,
+          "encrypted": false,
+          "hash_status": "verified",
+          "source_location": null,
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_2ffb0e032b720f519a0016e6d41005ea54cbf327e4ae1c72a50910884c523a15",
+        "kind": "occurrence",
+        "subject": "occ_db7acbcdb3dd166db4b0369b01f718c9dcaa9aa48a9d3f5013579ad3335af724",
+        "value": {
+          "occurrence_id": "occ_db7acbcdb3dd166db4b0369b01f718c9dcaa9aa48a9d3f5013579ad3335af724",
+          "artifact_id": "art_82efe1f545d17056d4cc4d0431c7533af57b7404821c3537748199c91fd9e07d",
+          "parent_occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+          "logical_path": "README.txt",
+          "entry_kind": "file",
+          "artifact_kind": "resource",
+          "artifact_format": "file",
+          "declared_size": 5296,
+          "compressed_size": 2580,
+          "executable": false,
+          "encrypted": false,
+          "hash_status": "verified",
+          "source_location": null,
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_08cd08c358c7f8e2b9a143f3b2b722bc31fed6a296a685695bac67e1e3270098",
+        "kind": "occurrence",
+        "subject": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+        "value": {
+          "occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+          "artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+          "parent_occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+          "logical_path": "pluto",
+          "entry_kind": "directory",
+          "artifact_kind": "container",
+          "artifact_format": "directory",
+          "declared_size": null,
+          "compressed_size": null,
+          "executable": true,
+          "encrypted": false,
+          "hash_status": "verified",
+          "source_location": null,
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_ce68fbce19da22fb34337a90ac875e773222e6153e477b66824708d1b7a4556e",
+        "kind": "occurrence",
+        "subject": "occ_6bab34ac885a77548099cca7e6fd2914def13751d05366717ce727cd7910c7ef",
+        "value": {
+          "occurrence_id": "occ_6bab34ac885a77548099cca7e6fd2914def13751d05366717ce727cd7910c7ef",
+          "artifact_id": "art_b56da5a187c9bb7735e74d4ea4448ba2292731945c8fbd87cc4a4a40dc1bf064",
+          "parent_occurrence_id": "occ_bafd6dc8ac1e0dae8868ad47b1ae79a0d8a6dae1beeeac9248a452b4284dd204",
+          "logical_path": "pluto.dll",
+          "entry_kind": "file",
+          "artifact_kind": "executable",
+          "artifact_format": "pe",
+          "declared_size": 465934,
+          "compressed_size": 206729,
+          "executable": true,
+          "encrypted": false,
+          "hash_status": "verified",
+          "source_location": null,
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_ba61e1bf728449101af666b940b2e2ffd902a31ae04e86b495116d1ed6c354fc",
+        "kind": "occurrence",
+        "subject": "occ_741a5fe532123ff9246e737e75a7648bbe1d9bfefb329f69a6ca940c933cb025",
+        "value": {
+          "occurrence_id": "occ_741a5fe532123ff9246e737e75a7648bbe1d9bfefb329f69a6ca940c933cb025",
+          "artifact_id": "art_dd6608d0eb371db8d345966557f8a310a795493f5697d513114370eb4d9e567a",
+          "parent_occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+          "logical_path": "pluto/pluto_infer.exe",
+          "entry_kind": "file",
+          "artifact_kind": "executable",
+          "artifact_format": "pe",
+          "declared_size": 1638912,
+          "compressed_size": 676497,
+          "executable": true,
+          "encrypted": false,
+          "hash_status": "verified",
+          "source_location": null,
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "observation_id": "aio_8e988f7a85be9e2608221c83cd6a2a3dda2ddc254fd41cdd89767d329d485a23",
+        "kind": "occurrence",
+        "subject": "occ_c45f291072fd98d19f5c7100f3d0e192d7e2396f127999c25173610622072bf6",
+        "value": {
+          "occurrence_id": "occ_c45f291072fd98d19f5c7100f3d0e192d7e2396f127999c25173610622072bf6",
+          "artifact_id": "art_d9f7f69c710f2cc9d10b44256824e8f8de936c13a1cb367291caa54d4aa26d43",
+          "parent_occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+          "logical_path": "pluto/pluto_weights.bin",
+          "entry_kind": "file",
+          "artifact_kind": "resource",
+          "artifact_format": "file",
+          "declared_size": 320491920,
+          "compressed_size": 284663028,
+          "executable": false,
+          "encrypted": false,
+          "hash_status": "verified",
+          "source_location": null,
+          "limitations": []
+        },
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      }
+    ],
+    "derived_relationships": [
+      {
+        "relationship_id": "air_8b0edc877c10138025d1b5d3b52fde62aabea37aa353462b5c109f89b1d4c388",
+        "relation": "contains",
+        "source_artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+        "target_artifact_id": "art_d9f7f69c710f2cc9d10b44256824e8f8de936c13a1cb367291caa54d4aa26d43",
+        "occurrence_id": "occ_c45f291072fd98d19f5c7100f3d0e192d7e2396f127999c25173610622072bf6",
+        "logical_path": "pluto/pluto_weights.bin",
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "relationship_id": "air_0555d9d612b739ac880ad477a9f502fc6e48b4bbd33aa73c07c8ba1a7879d052",
+        "relation": "contains",
+        "source_artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+        "target_artifact_id": "art_dd6608d0eb371db8d345966557f8a310a795493f5697d513114370eb4d9e567a",
+        "occurrence_id": "occ_741a5fe532123ff9246e737e75a7648bbe1d9bfefb329f69a6ca940c933cb025",
+        "logical_path": "pluto/pluto_infer.exe",
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "relationship_id": "air_4cf3f175ac4780fce28c62d8f4669acdeaf37760419b443a8e7554f86768f194",
+        "relation": "contains",
+        "source_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+        "target_artifact_id": "art_b5af6e5c16fc4a179352fbb25fc2add828a81d3d2847c0d85e4d84dab7406a14",
+        "occurrence_id": "occ_28825be0541b201656a9ff978b5fa2273bc55d4ea15338a107e23255daf4d909",
+        "logical_path": "pluto",
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "relationship_id": "air_d49e56e6b57a9c80d12c2827bdd80a1eaf49121e04c063279a286fdce4bbd05f",
+        "relation": "contains",
+        "source_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+        "target_artifact_id": "art_b56da5a187c9bb7735e74d4ea4448ba2292731945c8fbd87cc4a4a40dc1bf064",
+        "occurrence_id": "occ_6bab34ac885a77548099cca7e6fd2914def13751d05366717ce727cd7910c7ef",
+        "logical_path": "pluto.dll",
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      },
+      {
+        "relationship_id": "air_45fb6e9c88a892b57bc5fd4e6af240b4108f4e141f5625ba30674a04dfaea938",
+        "relation": "contains",
+        "source_artifact_id": "art_ef615deec528627d3f821ca18eb289844b7cfeb8d5ac8b891825ffa7fd53b55e",
+        "target_artifact_id": "art_82efe1f545d17056d4cc4d0431c7533af57b7404821c3537748199c91fd9e07d",
+        "occurrence_id": "occ_db7acbcdb3dd166db4b0369b01f718c9dcaa9aa48a9d3f5013579ad3335af724",
+        "logical_path": "README.txt",
+        "evidence_id": "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+      }
+    ],
+    "hypotheses": [],
+    "contradictions": [],
+    "unexplored_branches": [],
+    "next_probes": [],
+    "coverage": {
+      "status": "complete-within-substeps",
+      "substeps_completed": 1,
+      "observations_retained": 13,
+      "observations_omitted": 0,
+      "relationships_retained": 5,
+      "relationships_omitted": 0,
+      "hypotheses_retained": 0,
+      "hypotheses_omitted": 0,
+      "unexplored_branches_retained": 0,
+      "unexplored_branches_omitted": 0,
+      "next_probes_retained": 0,
+      "next_probes_omitted": 0
+    },
+    "evidence_links": [
+      "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+    ],
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics."
+    ]
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics."
+  ],
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "."
+    },
+    {
+      "kind": "artifact-path",
+      "path": "README.txt"
+    },
+    {
+      "kind": "artifact-path",
+      "path": "pluto"
+    },
+    {
+      "kind": "artifact-path",
+      "path": "pluto.dll"
+    },
+    {
+      "kind": "artifact-path",
+      "path": "pluto/pluto_infer.exe"
+    },
+    {
+      "kind": "artifact-path",
+      "path": "pluto/pluto_weights.bin"
+    }
+  ],
+  "evidence_links": [
+    "ev_d501cd59002ed336633b29272f8e62443d177a7e149cd4f875eeb79fe4009a34"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_b7200281f545feb6587b8df3abc45e84f5c0c108a715d84beb532ec5d785e357\",\"subject\":{\"name\":\"pluto_infer.exe\",\"digest\":{\"sha256\":\"ad880d8be52a6ef03893fa20644b6627e04fcd55e030178c6d52486b82340f2b\"},\"format\":\"pe\",\"architecture\":\"x86_64\",\"local_path\":\"/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto/pluto_infer.exe\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"pe\",\"architecture\":\"x86_64\",\"available_architectures\":[\"x86_64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"aac3538bbb660abb1bfb4ea3c3b1fdde18bf4afebbae9239fc5a0664e23a14ff\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"search_strings\",\"parameters\":{\"pattern\":\"shared memory\",\"mode\":\"literal\",\"case_sensitive\":false},\"raw_result\":[{\"address\":\"0x140159010\",\"value\":\"[pluto_infer] transport: shared memory + events\\n\"}],\"normalized_result\":[{\"address\":\"0x140159010\",\"value\":\"[pluto_infer] transport: shared memory + events\\n\"}],\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.\",\"macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state.\"],\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_b7200281f545feb6587b8df3abc45e84f5c0c108a715d84beb532ec5d785e357",
+      "subject": {
+        "name": "pluto_infer.exe",
+        "digest": {
+          "sha256": "ad880d8be52a6ef03893fa20644b6627e04fcd55e030178c6d52486b82340f2b"
+        },
+        "format": "pe",
+        "architecture": "x86_64",
+        "local_path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto/pluto_infer.exe"
+      },
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "analysis_profile": {
+        "provider": {
+          "id": "ghidra",
+          "name": "Ghidra",
+          "version": "12.1.4"
+        },
+        "parameters": {
+          "target_kind": "executable",
+          "target_format": "pe",
+          "architecture": "x86_64",
+          "available_architectures": [
+            "x86_64"
+          ],
+          "import_mode": "ephemeral-source-immutable",
+          "annotation_policy": "atomic-function-entry-metadata-v1",
+          "load_image_observations": "source-mappings-entry-context-v2",
+          "function_body_evidence": "complete-inclusive-ranges-v1",
+          "function_references": "complete-body-and-entry-reference-manager-v2",
+          "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+          "instruction_flow_evidence": "decoded-return-pcode-v1",
+          "process_launch": "inspected-jvm-launch-support-v1",
+          "jump_table_evidence": "typed-case-default-blocks-v1",
+          "decompiler_jump_loads": true,
+          "loader": "auto-from-header",
+          "language_id": "auto-from-header",
+          "compiler_spec_id": "auto-default",
+          "analyzer_preset": "ghidra-default"
+        },
+        "digest": "aac3538bbb660abb1bfb4ea3c3b1fdde18bf4afebbae9239fc5a0664e23a14ff"
+      },
+      "predicate_type": "rea.analysis",
+      "operation": "search_strings",
+      "parameters": {
+        "pattern": "shared memory",
+        "mode": "literal",
+        "case_sensitive": false
+      },
+      "raw_result": [
+        {
+          "address": "0x140159010",
+          "value": "[pluto_infer] transport: shared memory + events\n"
+        }
+      ],
+      "normalized_result": [
+        {
+          "address": "0x140159010",
+          "value": "[pluto_infer] transport: shared memory + events\n"
+        }
+      ],
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+        "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+        "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+        "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+        "Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.",
+        "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+      ],
+      "locations": [],
+      "evidence_links": []
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 8
+}

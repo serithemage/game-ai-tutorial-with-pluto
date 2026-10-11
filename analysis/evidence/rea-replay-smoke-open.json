@@ -1,0 +1,21 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"path\":\"/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto/pluto_infer.exe\",\"format\":\"pe\",\"kind\":\"executable\",\"sha256\":\"ad880d8be52a6ef03893fa20644b6627e04fcd55e030178c6d52486b82340f2b\",\"architecture\":\"x86_64\"}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "path": "/Users/dohyunjung/Workspace/roboco-io/research/pluto/vendor/pluto/pluto/pluto_infer.exe",
+        "format": "pe",
+        "kind": "executable",
+        "sha256": "ad880d8be52a6ef03893fa20644b6627e04fcd55e030178c6d52486b82340f2b",
+        "architecture": "x86_64"
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}
