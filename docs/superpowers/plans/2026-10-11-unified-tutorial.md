@@ -18,7 +18,7 @@ Mobile overflow; zero/negative decision signals; slider reset consistency; deplo
 - [x] Author seven connected chapters, original diagrams, accessible interactions and source disclosures in tutorial/index.html; replace the previous split primary guides.
 - [x] Build a curated static site with rendered analysis report and source files. Update README, report navigation, license and third-party notice.
 - [x] Verify unit calculations, HTML and local links, desktop/mobile browser behavior and screenshots. Record verification.
-- [ ] Initialize Git, commit in logical groups, create approved public repository, push all configured remotes, enable Pages, and verify workflow and live URL.
+- [x] Initialize Git, commit in logical groups, create approved public repository, push all configured remotes, enable Pages, and verify workflow and live URL.
 
 ## Execution notes
 No repository currently exists. Do not create external resources until local content and checks are reviewable. The user's instruction “배포 진행해” authorizes the approved publication. No further confirmation is required for this scope.
@@ -30,3 +30,5 @@ No repository currently exists. Do not create external resources until local con
 - Verification: seven outcome tests; actual Pages file and anchor checks; browser interactions and no overflow at desktop/mobile; no-JavaScript reading.
 - Final review: independent read-only reviewer found no Critical or Important issue. Mobile battlefield readability and reset assertions improved. Raw Mermaid in the optional technical report remains readable source; primary tutorial diagrams are rendered.
 - Publication excludes binary files, user diagnostics, provider caches and copied upstream README files.
+
+- Publication complete: public repository created, origin/main push verified, GitHub Pages workflow succeeded after initial Pages-configuration timing failure. Live HTTP and browser interactions passed at the approved renamed URL.

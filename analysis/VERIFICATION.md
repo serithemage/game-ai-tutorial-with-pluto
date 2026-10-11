@@ -23,3 +23,7 @@ BASE_URL=http://127.0.0.1:8765/_site/ npm run test:browser
 ## 확인하지 않은 범위
 
 StarCraft의 실제 경기, 모델 훈련, 승리 예측의 보정, 실전 속도·실력, 전체 입력 필드와 행동 매핑은 이 튜토리얼 검증 범위 밖이다. 분석 보고서에서 확인한 범위에 맞춰 설명한다.
+
+## 공개 배포 확인
+
+[배포 기록](evidence/pages-publication.json)에 첫 성공 배포의 커밋과 workflow를 보존했다. 공개 GitHub Pages 주소에서 HTML·CSS·JavaScript·분석 보고서·라이선스의 HTTP 200을 확인했다. 공개 사이트에서 PC·모바일 조작 및 JavaScript 없는 읽기를 다시 검증했다. 최초 배포는 Pages 설정 활성화 전에 시작되어 실패했으며, 설정 확인 뒤 같은 workflow를 재실행하여 성공했다.

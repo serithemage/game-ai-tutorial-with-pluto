@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/serithemage/game-ai-tutorial-with-pluto",
+  "site": "https://serithemage.github.io/game-ai-tutorial-with-pluto/",
+  "initial_verified_revision": "1f8bb9e678d729ff847626afe5bfa94c88371828",
+  "verified_at_utc": "2026-10-11T08:51:44.050102+00:00",
+  "workflow_run": "https://github.com/serithemage/game-ai-tutorial-with-pluto/actions/runs/38126112477",
+  "workflow_conclusion": "success",
+  "http_checks": [
+    {
+      "path": "index",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33935
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 13520
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 5449
+    },
+    {
+      "path": "learning.mjs",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "bytes": 820
+    },
+    {
+      "path": "analysis/REPORT.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 19823
+    },
+    {
+      "path": "LICENSE.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 18657
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 3450
+    }
+  ],
+  "live_browser_verification": "browser-verification.json",
+  "license": "CC-BY-4.0"
+}
