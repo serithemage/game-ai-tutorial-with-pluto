@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import MarkdownIt from 'markdown-it';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'_site');fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
-for(const name of ['index.html','styles.css','app.js','learning.mjs'])fs.copyFileSync(path.join(root,'tutorial',name),path.join(out,name));
+for(const name of ['index.html','styles.css','app.js','learning.mjs','social-thumbnail.png','social-thumbnail.jpg'])fs.copyFileSync(path.join(root,'tutorial',name),path.join(out,name));
 fs.copyFileSync(path.join(root,'LICENSE'),path.join(out,'LICENSE.txt'));fs.writeFileSync(path.join(out,'.nojekyll'),'');
 const md=new MarkdownIt({html:false,linkify:false});
 md.renderer.rules.heading_open=(tokens,idx)=>{const text=tokens[idx+1].content;const numeric=text.match(/^(\d+)\./);const id=numeric?`section-${numeric[1]}`:`heading-${idx}`;return `<${tokens[idx].tag} id="${id}">`;};

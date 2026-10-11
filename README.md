@@ -4,6 +4,8 @@
 
 **[튜토리얼 읽기](https://serithemage.github.io/game-ai-tutorial-with-pluto/)**
 
+SNS 공유용 썸네일: [PNG](tutorial/social-thumbnail.png) · [JPG](tutorial/social-thumbnail.jpg), 1200×630px. 직접 생성한 교육용 일러스트이며 Open Graph와 X 카드 메타태그에도 연결했다.
+
 관찰 → 숫자 표현 → 가중치 조합 → 기억 → 행동 실행 → 자기 대전 학습 → 배포된 모델의 추론을 연결한다. 수식 대신 직접 만든 그림과 가중치·기억·양자화 조작 예제를 사용한다. 분석 근거는 본문에서 펼쳐 읽을 수 있다.
 
 ## 근거와 범위
